@@ -1,0 +1,22 @@
+name: Automated workflow test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  learn:
+  runs-on: ubuntu-latest
+  env:
+    GREETING: "HIIIEEEEEEEE"
+  steps:
+    - name: Print greeting
+    run:  
+    for name in Baxture Alice Bob
+      do
+      echo "$GREETING $name"
+      done
+    
+    
+  
